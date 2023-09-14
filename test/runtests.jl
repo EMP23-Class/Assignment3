@@ -1,5 +1,5 @@
 using Test
-using Assignment2
+using Assignment3
 
 @testset "all tests" begin
     include("test_lcp.jl")
