@@ -25,8 +25,8 @@
         s.t.         ∑ᵢ₌₁ⁿ xᵢ = 1
                      x ≥ 0
    ```  
-        Let j := argmin(c), meaning the index for which c attains its minimum
-        value, with ties being broken arbitrarily. Prove that eⱼ is an optimizer for this program.
+   Let j := argmin(c), meaning the index for which c attains its minimum
+   value, with ties being broken arbitrarily. Prove that eⱼ is an optimizer for this program.
 
    
 Make sure tests pass for problems (2-3). 
