@@ -17,6 +17,16 @@
       2.    M(z+d) + q >= 0
       3.    q'd = 0
       4.    (M + M')d = 0
+
+   C. Consider the following parametric Linear Program, which is parameterized
+   by the vector c ∈ ℝⁿ:
+        min_{x ∈ ℝⁿ} x'c
+        s.t.         ∑ᵢ₌₁ⁿ xᵢ = 1
+                     x ≥ 0
+        
+        Let j := argmin(c), meaning the index for which c attains its minimum
+        value, with ties being broken arbitrarily. Prove that eⱼ is an optimizer for this program.
+
    
 Make sure tests pass for problems (2-3). 
 
