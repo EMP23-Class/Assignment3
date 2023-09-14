@@ -1,4 +1,4 @@
-# Assignment2
+# Assignment3
 
 # Instructions
 
@@ -12,12 +12,12 @@
 
    A. If M is positive semidefinite (x'Mx >= 0 for all x), prove that (M+M')x = 0 whenever x'Mx = 0. 
    
-   B. If z is a solution to LCP(M,q), with M positive semidefinite, prove that z+d is also a solution if 
+   B. If z is a solution to LCP(M,q), with M positive semidefinite, prove that z+d is also a solution if and only if the following conditions hold:
       1.    z + d >= 0
       2.    M(z+d) + q >= 0
       3.    q'd = 0
       4.    (M + M')d = 0
-
+   
 Make sure tests pass for problems (2-3). 
 
 # Murty book
